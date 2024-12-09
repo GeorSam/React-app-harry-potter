@@ -1,0 +1,20 @@
+{
+  "welcome": "Welcome to Hogwarts",
+  "header_name": "Harry Potter",
+  "Books": "Books",
+  "Spells": "Spells",
+  "Characters": "Characters",
+  "Houses": "Houses",
+  "title_books": "Books",
+  "subtitle_books": "Here you can find Harry Potter books",
+  "title_spells": "Spells",
+  "subtitle_spells": "Here you can find Harry Potter spells",
+  "title_characters": "Characters",
+  "subtitle_characters": "Here you can find Harry Potter characters",
+  "title_houses": "Houses",
+  "subtitle_houses": "Here you can find Harry Potter houses",
+  "check": "Check Here",
+  "page_loading": "Page Loading",
+  "error": "Error Fetching data",
+  "page_not_found": "Page not found"
+}

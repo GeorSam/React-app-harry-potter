@@ -1,0 +1,20 @@
+{
+  "welcome": "Vou le vou pasa",
+  "header_name": "Harroua Potteroua",
+  "Books": "Livres",
+  "Spells": "Sorts",
+  "Characters": "Personnages",
+  "Houses": "Maisons",
+  "title_books": "Livres",
+  "subtitle_books": "Ici vous pouvez trouver les livres de Harry Potter",
+  "title_spells": "Sorts",
+  "subtitle_spells": "Ici vous pouvez trouver les sorts de Harry Potter",
+  "title_characters": "Personnages",
+  "subtitle_characters": "Ici vous pouvez trouver les personnages de Harry Potter",
+  "title_houses": "Maisons",
+  "subtitle_houses": "Ici vous pouvez trouver les maisons de Harry Potter",
+  "check": "Vérifiez ici",
+  "page_loading": "Chargement de la page",
+  "error": "Erreur dans l'extraction des données",
+  "page_not_found": "Page non trouvée"
+}
