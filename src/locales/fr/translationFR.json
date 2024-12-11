@@ -1,6 +1,6 @@
 {
-  "welcome": "Vou le vou pasa",
-  "header_name": "Harroua Potteroua",
+  "welcome": "Bienvenue a Poudlard",
+  "header_name": "Harry Potter",
   "Books": "Livres",
   "Spells": "Sorts",
   "Characters": "Personnages",
@@ -16,5 +16,6 @@
   "check": "Vérifiez ici",
   "page_loading": "Chargement de la page",
   "error": "Erreur dans l'extraction des données",
-  "page_not_found": "Page non trouvée"
+  "page_not_found": "Page non trouvée",
+  "send": "Envoie-nous un hibou"
 }

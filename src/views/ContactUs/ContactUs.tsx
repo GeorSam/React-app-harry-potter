@@ -13,6 +13,7 @@ import {
 import { useForm, Controller, SubmitHandler } from "react-hook-form";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useTranslation } from "react-i18next";
 
 const contactUsSchema = z
   .object({
@@ -50,6 +51,7 @@ const StyledTypography = styled(Typography)({
 });
 
 export default function ContactUs() {
+  const { t } = useTranslation();
   const {
     handleSubmit,
     control,
@@ -57,12 +59,7 @@ export default function ContactUs() {
     formState: { errors },
   } = useForm<ContactUsFormValues>({
     defaultValues: {
-      MyTextFieldFirstName: "",
-      MyTextFieldLastName: "",
-      MyTextFieldEmail: "",
       MySelectHouses: " ",
-      MyTextFieldPhoneNumber: "",
-      MyTextFieldArea: "",
     },
     resolver: zodResolver(contactUsSchema),
   });
@@ -79,7 +76,7 @@ export default function ContactUs() {
           alignContent: "center",
         }}
       >
-        <StyledTypography>Send us an Owl!</StyledTypography>
+        <StyledTypography>{t("send")}</StyledTypography>
       </Grid2>
       <Container
         sx={{
