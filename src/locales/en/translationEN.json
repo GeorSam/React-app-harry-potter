@@ -16,5 +16,6 @@
   "check": "Check Here",
   "page_loading": "Page Loading",
   "error": "Error Fetching data",
-  "page_not_found": "Page not found"
+  "page_not_found": "Page not found",
+  "send": "Send us an owl"
 }
